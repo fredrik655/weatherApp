@@ -1,0 +1,32 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "--- The Odin Project --- assignment Weather-app",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrik655/weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredrik655/weatherApp/issues"
+  },
+  "homepage": "https://github.com/fredrik655/weatherApp#readme",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier-webpack-plugin": "^1.2.0"
+  }
+}
