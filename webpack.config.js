@@ -1,13 +1,18 @@
-const path = require('path');
-const PrettierPlugin = require('prettier-webpack-plugin');
+const path = require("path");
 
 module.exports = {
   entry: "./src/index.js",
-  plugins: [
-    new PrettierPlugin()
-  ],
+  devtool: "inline-source-map",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.bundle.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "index.bundle.js",
+  },
+  module : {
+    rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ]
   }
-}
+};

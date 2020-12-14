@@ -1,0 +1,20 @@
+{
+  "codes" : {
+    "thunderstorm" : { "color": "linear-gradient(to bottom right, #8cc63e,#0b9444)", "id":"11d"},
+    "drizzle" : { "color": "linear-gradient(to bottom right, #e7e8ea,#949599)", "id":"09d"},
+    "rain" : { "color": "linear-gradient(to bottom right, #e7e8ea,#949599)", "id":"10d"},
+    "snow" : { "color": "linear-gradient(to bottom right, #3fc8f4,#0099d2)", "id":"13d"},
+    "mist" : { "color": "linear-gradient(to bottom right, #ed207b,#a01f62)", "id":"50d"},
+    "smoke" : { "color": "linear-gradient(to bottom right, #ffde15,#fcb040)", "id":"50d"},
+    "haze" : { "color": "linear-gradient(to bottom right, #ed207b,#a01f62)", "id":"50d"},
+    "dust" : { "color": "linear-gradient(to bottom right, #ed207b,#a01f62)", "id":"50d"},
+    "fog" : { "color": "linear-gradient(to bottom right, #ed207b,#a01f62)", "id":"50d"},
+    "sand" : { "color": "linear-gradient(to bottom right, #ffde15,#fcb040)", "id":"50d"},
+    "ash" : { "color": "linear-gradient(to bottom right, #ffde15,#fcb040)", "id":"50d"},
+    "squall" : { "color": "linear-gradient(to bottom right, #ffde15,#fcb040)", "id":"50d"},
+    "tornado" : { "color": "linear-gradient(to bottom right, #8cc63e,#0b9444)", "id":"50d"},
+    "clear" : { "color": "linear-gradient(to bottom right, #ffde15,#fcb040)", "id":"01d"},
+    "clouds" : { "color": "linear-gradient(to bottom right, #ed207b,#a01f62)", "id":"03d"}
+  }
+
+}

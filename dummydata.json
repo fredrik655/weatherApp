@@ -1,0 +1,17 @@
+{
+  "main": {
+    "temp": 270
+  },
+  "weather": {
+    "0": {
+      "main": "rain"
+    }
+  },
+  "wind": {
+    "speed": 2.1
+  },
+  "sys": {
+    "country": "SE"
+  },
+  "name": "Stockholm"
+}
